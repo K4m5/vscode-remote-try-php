@@ -8,7 +8,7 @@ function sayHello($name) {
 
 <html>
 	<head>
-		<title></title>
+		<title>Nhóm 10</title>
 	</head>
 	<body>
 		<?php 
@@ -72,6 +72,15 @@ function sayHello($name) {
 				echo '<span style="color: blue; font-style: italic;">' . $i . '</span> ';
 			}
 		}
-		?>
+		?><br>
+
+		<div>
+			<h1>Đăng nhập</h1>
+			<form action="info.php" method="POST">
+				<p>Tên đăng nhập: <input type="text" name="username" placeholder="Nhập từ khóa"></p>
+				<p>Mật khẩu: <input type="text" name="password" placeholder="Nhập từ khóa"></p>
+				<input type="submit">
+			</form>
+		</div>
 	</body>
 </html>
