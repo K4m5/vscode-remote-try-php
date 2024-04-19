@@ -1,10 +1,5 @@
 <?php
 
-/*----------------------------------------------------------------------------------------
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See LICENSE in the project root for license information.
- *---------------------------------------------------------------------------------------*/
-
 function sayHello($name) {
 	echo "Hello $name!";
 }
@@ -13,15 +8,29 @@ function sayHello($name) {
 
 <html>
 	<head>
-		<title>Visual Studio Code Remote :: PHP</title>
+		<title></title>
 	</head>
 	<body>
 		<?php 
 		
-		sayHello('remote world');
-			
-		phpinfo(); 
-			
+		sayHello('20010879');
+					
+		?>
+		<?php
+		echo '<p> Hello world</p>' 
+		?>
+
+		<?php
+		$Name1 = "PHP";
+		$Name2 =  "ASP.NET";
+
+		echo $Name1, " và ", $Name2, " là ngôn  ngữ Websever";
+		?><br>
+		<?php 
+		$a = 10;
+		$b = 20;
+
+		printf("Giá trị %s nhân %s là: %s", $a, $b, $a * $b);
 		?>
 	</body>
 </html>
